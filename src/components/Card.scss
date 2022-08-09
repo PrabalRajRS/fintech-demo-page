@@ -1,0 +1,36 @@
+.card {
+  height: 160px;
+  width: 160px;
+  background-color: #e8f1fd;
+  border-radius: 4px;
+  padding: 10px;
+  margin-bottom: 10px;
+
+  .progress-bar {
+    width: 132px;
+    height: 8px;
+    background: #b9d4f9;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    position: absolute;
+    .progress {
+      height: 8px;
+      background-color: #2f80ed;
+      border-radius: 4px;
+    }
+  }
+
+  .name {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .price {
+    color: #b9d4f9;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+  }
+}
